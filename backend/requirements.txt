@@ -9,3 +9,5 @@ flask
 flask-cors
 python-multipart
 httpx
+jspdf
+html2canvas

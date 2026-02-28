@@ -1,21 +1,4 @@
-# from pydantic import BaseModel, Field
-# from typing import Optional
 
-
-# class PitchRequest(BaseModel):
-#     product: str = Field(..., min_length=2, max_length=500)
-#     persona: str = Field(..., min_length=2, max_length=500, description="Customer persona description")
-#     industry: Optional[str] = Field("General", description="Target industry")
-#     company_size: Optional[str] = Field("Mid-Market", description="Company size: Startup / SMB / Mid-Market / Enterprise")
-#     generate_email: Optional[bool] = Field(False, description="Also generate a cold email template via Gemini")
-
-
-# class PitchResponse(BaseModel):
-#     pitch: str
-#     email_template: Optional[str] = None
-#     industry_detected: Optional[str] = None
-#     product: str
-#     persona: str
 from pydantic import BaseModel, Field
 from typing import Optional
 
